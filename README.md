@@ -1,59 +1,44 @@
-# Linear and Poly model's Likelyhood
+# Linear and Poly Model Likelihood
 
-# Analisi bayesiana di modelli probabilistici - Esercizio 7
+# Bayesian Analysis of Probabilistic Models - Exercise 7
 
-Questo repository contiene il notebook `S3E7_MML.ipynb`, che svolge un esercizio sull’uso del formalismo bayesiano per il confronto tra modelli probabilistici di complessità diversa.
+This repository contains the notebook `S3E7_MML.ipynb`, which covers an exercise on using the Bayesian formalism to compare probabilistic models of varying complexity.
 
-## Descrizione
+## Description
 
-Il notebook affronta i seguenti punti:
+The notebook addresses the following points:
 
-1. **Definizione teorica**: 
-   - Calcolo della log-verosimiglianza marginale (*log-evidenza*) sfruttando l’approssimazione di Laplace.
-   - Discussione del termine di penalizzazione della complessità (principio del Rasoio di Occam).
+1. **Theoretical Framework**: 
+   - Calculation of the log-marginal likelihood (*log-evidence*) using the Laplace approximation.
+   - Discussion of the complexity penalty (Occam's Razor principle).
 
-2. **Generazione dati sintetici**: 
-   - Dati generati da un modello lineare con rumore gaussiano.
+2. **Synthetic Data Generation**: 
+   - Data generated from a linear model with Gaussian noise.
 
-3. **Confronto tra modelli**:
-   - Modello lineare \( M_1 \): \( y = 	heta_0 + 	heta_1 x \)
-   - Modello polinomiale di quinto grado \( M_2 \): \( y = \sum_{k=0}^5 	heta_k x^k \)
+3. **Model Comparison**:
+   - Linear model $M_1$: $y = \theta_0 + \theta_1 x$
+   - 5th-degree polynomial model $M_2$: $y = \sum_{k=0}^5 \theta_k x^k$
 
-4. **Analisi evidenza**:
-   - Calcolo e rappresentazione grafica dell’andamento dell’evidenza al crescere della numerosità campionaria \( N \).
-   - Identificazione della *regione di Occam* \( N^* \), dove il modello più semplice \( M_1 \) risulta preferibile.
+4. **Evidence Analysis**:
+   - Calculation and graphical representation of the evidence trend as the sample size $N$ increases.
+   - Identification of the *Occam region* $N^*$, where the simpler model $M_1$ is preferred.
 
-5. **Effetto delle prior**:
-   - Discussione su come la scelta di una prior sparsa (es. distribuzione di Laplace) influisce sul confronto tra i modelli.
+5. **Effect of Priors**:
+   - Discussion on how the choice of a sparse prior (e.g., Laplace distribution) influences the comparison between models.
 
-## Requisiti
+## Requirements
 
 - Python 3.x
-- Librerie principali:
+- Main libraries:
   - `numpy`
   - `matplotlib`
   - `scipy`
 
-## Esecuzione
+## Execution
 
-Per riprodurre l’analisi:
+To reproduce the analysis:
 
-1. Clonare il repository:
+1. Clone the repository:
    ```bash
    git clone <repository-url>
    cd <repository-folder>
-   ```
-
-2. Installare le dipendenze (opzionale):
-   ```bash
-   pip install numpy matplotlib scipy
-   ```
-
-3. Aprire il notebook:
-   ```bash
-   jupyter notebook S3E7_MML.ipynb
-   ```
-
-## Autore
-
-- Neri Lorenzo — Matricola: 2088285
