@@ -1,4 +1,4 @@
-# Linear and Poly Model Likelihood
+# Log-evidence and Occam's Razor Distinction (LORD)
 
 # Bayesian Analysis of Probabilistic Models - Exercise 7
 
