@@ -1,4 +1,4 @@
-# Log-evidence and Occam's Razor Distinction (LORD)
+# Log-evidence and Occam's Razor Driven model distinction (LORD)
 
 # Bayesian Analysis of Probabilistic Models - Exercise 7
 
