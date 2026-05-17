@@ -1,5 +1,3 @@
-# Log-evidence and Occam's Razor Driven model distinction (LORD)
-
 # Bayesian Analysis of Probabilistic Models - Exercise 7
 
 This repository contains the notebook `S3E7_MML.ipynb`, which covers an exercise on using the Bayesian formalism to compare probabilistic models of varying complexity.
